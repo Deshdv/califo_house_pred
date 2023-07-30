@@ -28,41 +28,29 @@ Analysis Tasks to be performed:
 Read the “housing.csv” file from the folder into the program.
 Print first few rows of this data.
 Extract input (X) and output (Y) data from the dataset.
-2. Handle missing values :
 
-Fill the missing values with the mean of the respective column.
-3. Encode categorical data :
+2. Handle missing values : Fill the missing values with the mean of the respective column.
 
-Convert categorical column in the dataset to numerical data.
-4. Split the dataset : 
+3. Encode categorical data :Convert categorical column in the dataset to numerical data.
 
-Split the data into 80% training dataset and 20% test dataset.
-5. Standardize data :
-
-Standardize training and test datasets.
-6. Perform Linear Regression : 
-
-Perform Linear Regression on training data.
-Predict output for test dataset using the fitted model.
+4. Split the dataset : Split the data into 80% training dataset and 20% test dataset.
+   
+6. Standardize data :Standardize training and test datasets.
+   
+6. Perform Linear Regression : Perform Linear Regression on training data.Predict output for test dataset using the fitted model.
 Print root mean squared error (RMSE) from Linear Regression.
             [ HINT: Import mean_squared_error from sklearn.metrics ]
 
-7. Perform Decision Tree Regression :
-
-Perform Decision Tree Regression on training data.
-Predict output for test dataset using the fitted model.
+7. Perform Decision Tree Regression :Perform Decision Tree Regression on training data.Predict output for test dataset using the fitted model.
 Print root mean squared error from Decision Tree Regression.
-8. Perform Random Forest Regression :
 
-Perform Random Forest Regression on training data.
-Predict output for test dataset using the fitted model.
+9. Perform Random Forest Regression :Perform Random Forest Regression on training data.Predict output for test dataset using the fitted model.
 Print RMSE (root mean squared error) from Random Forest Regression.
-9. Bonus exercise: Perform Linear Regression with one independent variable :
 
-Extract just the median_income column from the independent variables (from X_train and X_test).
-Perform Linear Regression to predict housing values based on median_income.
+9. Bonus exercise: Perform Linear Regression with one independent variable :Extract just the median_income column from the independent variables (from X_train and X_test).Perform Linear Regression to predict housing values based on median_income.
 Predict output for test dataset using the fitted model.
 Plot the fitted model for training data as well as for test data to check if the fitted model satisfies the test data.
+
 Dataset Description :
 
 Field	Description
